@@ -16,7 +16,6 @@ import docs from "../../Assets/document.png";
 import travel from "../../Assets/travel.png";
 import subs from "../../Assets/subs.png";
 import deals from "../../Assets/deals.png";
-import view from "../../Assets/view.png";
 import user from "../../Assets/user.png";
 import pick from "../../Assets/no mails.png";
 import ComposeMail from "./ComposeMail/ComposeMail";
@@ -172,7 +171,7 @@ const Home = () => {
               >
                <HiOutlineMenuAlt1 fontSize={"2rem"}/>
               </div>{" "}
-              <h1> Yahoo!!</h1>{" "}
+              <h1> Mail!!</h1>{" "}
             </div>{" "}
           </div>
           <div class="search-cantrol w-100 ms-5 ms-5">
@@ -263,10 +262,10 @@ const Home = () => {
               className={`accordion ${isActive ? "active" : ""}`}
               onClick={toggleAccordion}
             >
-              <button className="accor-button mt-2 font-weight">
+              {/* <button className="accor-button mt-2 font-weight">
                 <img src={view} alt="xyz-damaged" className="img-style" />
                 Views
-              </button>
+              </button> */}
               <div
                 className="panel"
                 style={{ display: isActive ? "block" : "none" }}
